@@ -38,7 +38,7 @@ The application consists of three main components:
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/authentication-project.git
+   git clone https://github.com/Mugi0297/Simple-Authentication-Servlet-Project.git
    cd authentication-project
 
 ## Usage
@@ -47,27 +47,31 @@ The application consists of three main components:
 - **User Login**: Use the login page to authenticate.
 - **Admin Login**: Use admin credentials to access the admin panel and view user information.
 
-authentication-project/
-├── src/
-│   ├── com/
-│   │   ├── example/
-│   │   │   ├── model/
-│   │   │   │   └── User.java
-│   │   │   ├── dao/
-│   │   │   │   └── UserDAO.java
-│   │   │   ├── servlet/
-│   │   │   │   ├── SignupServlet.java
-│   │   │   │   ├── LoginServlet.java
-│   │   │   │   └── AdminServlet.java
-│   │   │   └── utils/
-│   │   │       └── DatabaseConnection.java
-│   └── web/
-│       ├── index.jsp
-│       ├── signup.jsp
-│       ├── login.jsp
-│       └── admin.jsp
-├── web.xml
-└── README.md
+## Project Structure
+
+**Simple-authentication-project/**  
+- **src/**  
+  - **com/**  
+    - **sap/**  
+      - **Bean/**  
+        - `RegisterBean.java`  
+      - **Interface/**  
+        - `SInterface.java`
+      - **Implementation/**
+        - `SImplmentation.java`  
+      - **Servlet/**  
+        - `RegisterServlet.java`  
+        - `LoginServlet.java`  
+        - `AdminServlet.java`  
+      - **DatabaseConnection/**  
+        - `DatabaseConnection.java`  
+  - **web/**  
+    - `index.jsp`  
+    - `signup.jsp`  
+    - `login.jsp`  
+    - `admin.jsp`  
+- `web.xml`  
+- `README.md`  
 
 ## Version History
 
