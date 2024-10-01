@@ -62,7 +62,7 @@ The application consists of three main components:
       - **Servlet/**  
         - `RegisterServlet.java`  
         - `LoginServlet.java`  
-        - `AdminServlet.java`  
+        - `AdminLoginServlet.java`  
       - **DatabaseConnection/**  
         - `DatabaseConnection.java`  
   - **web/**  
