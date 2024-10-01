@@ -67,9 +67,12 @@ The application consists of three main components:
         - `DatabaseConnection.java`  
   - **web/**  
     - `index.jsp`  
-    - `signup.jsp`  
-    - `login.jsp`  
-    - `admin.jsp`  
+    - `Register.jsp`  
+    - `ViewData.jsp`  
+    - `AdminLogin.jsp`
+    - `Error.jsp`
+    - `Success.jsp`
+    - `Success1.jsp`  
 - `web.xml`  
 - `README.md`  
 
